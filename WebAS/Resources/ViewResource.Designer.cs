@@ -493,7 +493,7 @@ namespace WebAS.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The application use an UI autodetection for the language. The default language is English..
+        ///   Looks up a localized string similar to The application use an UI autodetection for the language settings. The default language is English..
         /// </summary>
         public static string TextIndexDescriptionP2 {
             get {

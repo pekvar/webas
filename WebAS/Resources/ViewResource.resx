@@ -310,8 +310,8 @@
     <comment>The application you can save, change and delete a location data added with description.</comment>
   </data>
   <data name="TextIndexDescriptionP2" xml:space="preserve">
-    <value>The application use an UI autodetection for the language. The default language is English.</value>
-    <comment>The application use an UI autodetection for the language. The default language is English.</comment>
+    <value>The application use an UI autodetection for the language settings. The default language is English.</value>
+    <comment>The application use an UI autodetection for the language settings. The default language is English.</comment>
   </data>
   <data name="TextIndexDescriptionP3" xml:space="preserve">
     <value>The application has been createad two default user roles: Admin (can create new users) and User.</value>
