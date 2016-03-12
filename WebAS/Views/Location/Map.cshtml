@@ -1,0 +1,25 @@
+﻿@using WebAS.Resources;
+
+@{
+    ViewBag.Title = ViewResource.TitleLocationMap;
+}
+
+
+@section Scripts
+{
+    <script type='text/javascript' src='http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&mkt=fi-FI,en-GB,sv-SE,nb-NO'></script>
+    <script src="~/Scripts/bingmap.js"></script>
+}
+
+<div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h2>@ViewBag.Title</h2>
+</div>
+
+<div class="Row">
+    <input class="btn btn-default" type="button" id="btnRefreshMap" value="@ViewResource.ButtonSubmitLocationMapRefresh" />
+</div>
+                                                                                                                           
+<div class="row">
+    <div id="myMap" style="position:relative;min-height:600px; min-width:200px;"></div>
+</div>
+

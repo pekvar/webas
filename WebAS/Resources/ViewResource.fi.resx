@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionLinkAccountForgotPassword" xml:space="preserve">
+    <value>Unohditko salasanan?</value>
+    <comment>Unohditko salasanan?</comment>
+  </data>
+  <data name="ActionLinkAccountLoginRegister" xml:space="preserve">
+    <value>Registeröidy uutena käyttäjänä</value>
+    <comment>Registeröidy uutena käyttäjänä</comment>
+  </data>
+  <data name="ActionLinkBackToList" xml:space="preserve">
+    <value>Palaa listaan</value>
+    <comment>Palaa listaan</comment>
+  </data>
+  <data name="ActionLinkBackToMap" xml:space="preserve">
+    <value>Palaa karttaan</value>
+    <comment>Palaa karttaan</comment>
+  </data>
+  <data name="ActionLinkChangePassword" xml:space="preserve">
+    <value>Muuta salasana</value>
+    <comment>Muuta salasana</comment>
+  </data>
+  <data name="ActionLinkCreateNew" xml:space="preserve">
+    <value>Luo uusi</value>
+    <comment>Luo uusi</comment>
+  </data>
+  <data name="ActionLinkLocations" xml:space="preserve">
+    <value>Kohteet</value>
+    <comment>Kohteet</comment>
+  </data>
+  <data name="ActionLinkMap" xml:space="preserve">
+    <value>Kartta</value>
+    <comment>Kartta</comment>
+  </data>
+  <data name="ActionLinkRegisterAccountRegisterLink" xml:space="preserve">
+    <value>Luo käyttäjä</value>
+    <comment>Luo käyttäjä</comment>
+  </data>
+  <data name="ActionLinkSetPassword" xml:space="preserve">
+    <value>Luo salasana</value>
+    <comment>Luo salasana</comment>
+  </data>
+  <data name="ButtonLearnMore" xml:space="preserve">
+    <value>Opi lisää</value>
+    <comment>Opi lisää</comment>
+  </data>
+  <data name="ButtonMore" xml:space="preserve">
+    <value>Lisää</value>
+    <comment>Lisää</comment>
+  </data>
+  <data name="ButtonSubmit" xml:space="preserve">
+    <value>Vahvista</value>
+    <comment>Vahvista</comment>
+  </data>
+  <data name="ButtonSubmitChangePassword" xml:space="preserve">
+    <value>Muuta salasana</value>
+    <comment>Muuta salasana</comment>
+  </data>
+  <data name="ButtonSubmitCreate" xml:space="preserve">
+    <value>Luo</value>
+    <comment>Luo</comment>
+  </data>
+  <data name="ButtonSubmitDelete" xml:space="preserve">
+    <value>Poista</value>
+    <comment>Poista</comment>
+  </data>
+  <data name="ButtonSubmitEmailLink" xml:space="preserve">
+    <value>Lähetä sähköpostiin</value>
+    <comment>Lähetä sähköpostiin</comment>
+  </data>
+  <data name="ButtonSubmitLocationMapRefresh" xml:space="preserve">
+    <value>Päivitä kartta</value>
+    <comment>Päivitä kartta</comment>
+  </data>
+  <data name="ButtonSubmitLogin" xml:space="preserve">
+    <value>Kirjaudu sisään </value>
+    <comment>Kirjaudu sisään</comment>
+  </data>
+  <data name="ButtonSubmitRegister" xml:space="preserve">
+    <value>Registeröidy</value>
+    <comment>Registeröidy</comment>
+  </data>
+  <data name="ButtonSubmitSave" xml:space="preserve">
+    <value>Tallenna</value>
+    <comment>Tallenna</comment>
+  </data>
+  <data name="H1Error" xml:space="preserve">
+    <value>Virhe</value>
+    <comment>Virhe</comment>
+  </data>
+  <data name="H2Error" xml:space="preserve">
+    <value>Virhe pyynnön käsittelyn yhteydessä.</value>
+    <comment>Virhe pyynnön käsittelyn yhteydessä.</comment>
+  </data>
+  <data name="H2IndexComponent" xml:space="preserve">
+    <value>Komponentit</value>
+    <comment>Komponentit</comment>
+  </data>
+  <data name="H2IndexDescription" xml:space="preserve">
+    <value>Kuvaus</value>
+    <comment>Kuvaus</comment>
+  </data>
+  <data name="H2IndexTodo" xml:space="preserve">
+    <value>Todo</value>
+    <comment>Todo</comment>
+  </data>
+  <data name="H3LocationDelete" xml:space="preserve">
+    <value>Oletko varma, että haluat poistaa tämän?</value>
+    <comment>Oletko varma, että haluat poistaa tämän?</comment>
+  </data>
+  <data name="H4AccountForgotPassword" xml:space="preserve">
+    <value>Syötä sähköpostiosoite</value>
+    <comment>Syötä sähköpostiosoite</comment>
+  </data>
+  <data name="H4AccountSendCode" xml:space="preserve">
+    <value>Lähetä varmistuskoodi</value>
+    <comment>Lähetä varmistuskoodi</comment>
+  </data>
+  <data name="H4AccountSendCodeText" xml:space="preserve">
+    <value>Valitse kaksivaiheisen tunnistuksen tarjoaja:</value>
+    <comment>Valitse kaksivaiheisen tunnistuksen tarjoaja:</comment>
+  </data>
+  <data name="H4LocationCreate" xml:space="preserve">
+    <value>Paikka</value>
+    <comment>Paikka</comment>
+  </data>
+  <data name="H4LocationDelete" xml:space="preserve">
+    <value>Paikka</value>
+    <comment>Paikka</comment>
+  </data>
+  <data name="H4LocationDetails" xml:space="preserve">
+    <value>Paikka</value>
+    <comment>Paikka</comment>
+  </data>
+  <data name="H4LocationEdit" xml:space="preserve">
+    <value>Kohde</value>
+    <comment>Kohde</comment>
+  </data>
+  <data name="H4ManageChangePassword" xml:space="preserve">
+    <value>Salasanan muuttamislomake</value>
+    <comment>Salasanan muuttamislomake</comment>
+  </data>
+  <data name="H4ManageIndex" xml:space="preserve">
+    <value>Tilitietojen muuttaminen</value>
+    <comment>Tilitietojen muuttaminen</comment>
+  </data>
+  <data name="LeadHome" xml:space="preserve">
+    <value>Demo sovellus paikkatiedon tallentamiseen</value>
+    <comment>Demo sovellus paikkatiedon tallentamiseen</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li1" xml:space="preserve">
+    <value>C# ASP.NET</value>
+    <comment>C# ASP.NET</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li2" xml:space="preserve">
+    <value>MVC 5</value>
+    <comment>MVC 5</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li3" xml:space="preserve">
+    <value>EF 6</value>
+    <comment>EF 6</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li4" xml:space="preserve">
+    <value>JQuery</value>
+    <comment>JQuery</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li5" xml:space="preserve">
+    <value>Twitter Bootstrap</value>
+    <comment>Twitter Bootstrap</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li6" xml:space="preserve">
+    <value>Bing Map Control V7.0</value>
+    <comment>Bing Map Control V7.0</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li7" xml:space="preserve">
+    <value>lokalisoinnin resurssitiedostot</value>
+    <comment>Kotoittamisen resurssitiedostot</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li8" xml:space="preserve">
+    <value>Migration</value>
+    <comment>Migration</comment>
+  </data>
+  <data name="TextIndexDescriptionP1" xml:space="preserve">
+    <value>Sovelluksella voit tallentaa, muuttaa ja poistaa paikkatietoja kuvauksella.</value>
+    <comment>Sovelluksella voit tallentaa, muuttaa ja poistaa paikkatietoja kuvauksella.</comment>
+  </data>
+  <data name="TextIndexDescriptionP2" xml:space="preserve">
+    <value>Sovellus käyttää selaimen automaattista tunnistusta kielen valintaan. Oletuskielenä on englanti.</value>
+    <comment>Sovellus käyttää selaimen automaattista tunnistusta kielen valintaan. Oletuskielenä on englanti.</comment>
+  </data>
+  <data name="TextIndexDescriptionP3" xml:space="preserve">
+    <value>Sovellukseen on luotu kaksi oletuskäyttäjäroolia: Admin ( voi luoda uusia käyttäjiä) ja User.</value>
+    <comment>Sovellukseen on luotu kaksi oletuskäyttäjäroolia: Admin ( voi luoda uusia käyttäjiä) ja User.</comment>
+  </data>
+  <data name="TextIndexDescriptionP4" xml:space="preserve">
+    <value>Käyttäjä ja roolimääritykset löytyvät tiedostosta Migrations/Configuration.cs.</value>
+    <comment>Käyttäjä ja roolimääritykset löytyvät tiedostosta Migrations/Configuration.cs.</comment>
+  </data>
+  <data name="TextIndexTodoP1" xml:space="preserve">
+    <value>Lisää oikea paluu Url toimenpiteille  Create, Edit ja Delete.</value>
+    <comment>Lisää oikea paluu Url toimenpiteille  Create, Edit ja Delete.</comment>
+  </data>
+  <data name="TitleAccountForgotPassword" xml:space="preserve">
+    <value>Unohditko salasanan?</value>
+    <comment>Unohditko salasanan?</comment>
+  </data>
+  <data name="TitleAccountLogin" xml:space="preserve">
+    <value>Sisäänkirjautuminen</value>
+    <comment>Sisäänkirjautuminen</comment>
+  </data>
+  <data name="TitleAccountRegister" xml:space="preserve">
+    <value>Rekisteröityminen</value>
+    <comment>Rekisteröityminen</comment>
+  </data>
+  <data name="TitleAccountSendCode" xml:space="preserve">
+    <value>Lähetä</value>
+    <comment>Lähetä</comment>
+  </data>
+  <data name="TitleAccountVerifyCode" xml:space="preserve">
+    <value>Varmistuskoodi</value>
+    <comment>Varmistuskoodi</comment>
+  </data>
+  <data name="TitleError" xml:space="preserve">
+    <value>Virhe</value>
+    <comment>Virhe</comment>
+  </data>
+  <data name="TitleHomeAbout" xml:space="preserve">
+    <value>Lisätietoja</value>
+    <comment>Lisätietoja</comment>
+  </data>
+  <data name="TitleHomeContact" xml:space="preserve">
+    <value>Yhteystiedot</value>
+    <comment>Yhteystiedot</comment>
+  </data>
+  <data name="TitleHomeIndex" xml:space="preserve">
+    <value>Kotisivu</value>
+    <comment>Kotisivu</comment>
+  </data>
+  <data name="TitleLocationCreate" xml:space="preserve">
+    <value>Luo</value>
+    <comment>Luo</comment>
+  </data>
+  <data name="TitleLocationDelete" xml:space="preserve">
+    <value>Poista</value>
+    <comment>Poista</comment>
+  </data>
+  <data name="TitleLocationDetails" xml:space="preserve">
+    <value>Tiedot</value>
+    <comment>Tiedot</comment>
+  </data>
+  <data name="TitleLocationEdit" xml:space="preserve">
+    <value>Muokkaa</value>
+    <comment>Muokka</comment>
+  </data>
+  <data name="TitleLocationIndex" xml:space="preserve">
+    <value>Lista</value>
+    <comment>Lista</comment>
+  </data>
+  <data name="TitleLocationMap" xml:space="preserve">
+    <value>Kartta</value>
+    <comment>Kartta</comment>
+  </data>
+  <data name="TitleLogout" xml:space="preserve">
+    <value>Tunnus lukittu</value>
+    <comment>Tunnus lukittu</comment>
+  </data>
+  <data name="TitleManageAddPhoneNumber" xml:space="preserve">
+    <value>Puhelinnumero</value>
+    <comment>Puhelinnumero</comment>
+  </data>
+  <data name="TitleManageChangePassword" xml:space="preserve">
+    <value>Muuta salasana</value>
+    <comment>Muuta salasana</comment>
+  </data>
+  <data name="TitleManageIndex" xml:space="preserve">
+    <value>Tilitietojen ylläpito</value>
+    <comment>Tilitietojen ylläpito</comment>
+  </data>
+</root>

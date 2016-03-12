@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionLinkAccountForgotPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+    <comment>Forgot your password?</comment>
+  </data>
+  <data name="ActionLinkAccountLoginRegister" xml:space="preserve">
+    <value>Register as a new user</value>
+    <comment>Register as a new user</comment>
+  </data>
+  <data name="ActionLinkBackToList" xml:space="preserve">
+    <value>Back to List</value>
+    <comment>Back to List</comment>
+  </data>
+  <data name="ActionLinkBackToMap" xml:space="preserve">
+    <value>Back to Map</value>
+    <comment>Back to Map</comment>
+  </data>
+  <data name="ActionLinkChangePassword" xml:space="preserve">
+    <value>Change your password</value>
+    <comment>Change your password</comment>
+  </data>
+  <data name="ActionLinkCreateNew" xml:space="preserve">
+    <value>Create New</value>
+    <comment>Create New</comment>
+  </data>
+  <data name="ActionLinkLocations" xml:space="preserve">
+    <value>Locations</value>
+    <comment>Locations</comment>
+  </data>
+  <data name="ActionLinkMap" xml:space="preserve">
+    <value>Map</value>
+    <comment>Map</comment>
+  </data>
+  <data name="ActionLinkRegisterAccountRegisterLink" xml:space="preserve">
+    <value>Register</value>
+    <comment>Register</comment>
+  </data>
+  <data name="ActionLinkSetPassword" xml:space="preserve">
+    <value>Create</value>
+    <comment>Create</comment>
+  </data>
+  <data name="ButtonLearnMore" xml:space="preserve">
+    <value>Learn more</value>
+    <comment>Learn more</comment>
+  </data>
+  <data name="ButtonMore" xml:space="preserve">
+    <value>More</value>
+    <comment>More</comment>
+  </data>
+  <data name="ButtonSubmit" xml:space="preserve">
+    <value>Submit</value>
+    <comment>Submit</comment>
+  </data>
+  <data name="ButtonSubmitChangePassword" xml:space="preserve">
+    <value>Change password</value>
+    <comment>Change password</comment>
+  </data>
+  <data name="ButtonSubmitCreate" xml:space="preserve">
+    <value>Create</value>
+    <comment>Create</comment>
+  </data>
+  <data name="ButtonSubmitDelete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="ButtonSubmitEmailLink" xml:space="preserve">
+    <value>Email Link</value>
+    <comment>Email Link</comment>
+  </data>
+  <data name="ButtonSubmitLocationMapRefresh" xml:space="preserve">
+    <value>Refesh map</value>
+    <comment>Refesh map</comment>
+  </data>
+  <data name="ButtonSubmitLogin" xml:space="preserve">
+    <value>Log in</value>
+    <comment>Log in</comment>
+  </data>
+  <data name="ButtonSubmitRegister" xml:space="preserve">
+    <value>Register</value>
+    <comment>Register</comment>
+  </data>
+  <data name="ButtonSubmitSave" xml:space="preserve">
+    <value>Save</value>
+    <comment>Save</comment>
+  </data>
+  <data name="H1Error" xml:space="preserve">
+    <value>Error</value>
+    <comment>Error</comment>
+  </data>
+  <data name="H1Logout" xml:space="preserve">
+    <value>Locked out.</value>
+    <comment>Locked out.</comment>
+  </data>
+  <data name="H2Error" xml:space="preserve">
+    <value>An error occurred while processing your request.</value>
+    <comment>An error occurred while processing your request.</comment>
+  </data>
+  <data name="H2IndexComponent" xml:space="preserve">
+    <value>Components</value>
+    <comment>Components</comment>
+  </data>
+  <data name="H2IndexDescription" xml:space="preserve">
+    <value>Description</value>
+    <comment>Description</comment>
+  </data>
+  <data name="H2IndexTodo" xml:space="preserve">
+    <value>Todo</value>
+    <comment>Todo</comment>
+  </data>
+  <data name="H2Logout" xml:space="preserve">
+    <value>This account has been locked out, please try again later.</value>
+    <comment>This account has been locked out, please try again later.</comment>
+  </data>
+  <data name="H3LocationDelete" xml:space="preserve">
+    <value>Are you sure you want to delete this?</value>
+    <comment>Are you sure you want to delete this?</comment>
+  </data>
+  <data name="H4AccountForgotPassword" xml:space="preserve">
+    <value>Enter your email.</value>
+    <comment>Enter your email.</comment>
+  </data>
+  <data name="H4AccountSendCode" xml:space="preserve">
+    <value>Send verification code</value>
+    <comment>Send verification code</comment>
+  </data>
+  <data name="H4AccountSendCodeText" xml:space="preserve">
+    <value>Select Two-Factor Authentication Provider:</value>
+    <comment>Select Two-Factor Authentication Provider:</comment>
+  </data>
+  <data name="H4LocationCreate" xml:space="preserve">
+    <value>Location</value>
+    <comment>Location</comment>
+  </data>
+  <data name="H4LocationDelete" xml:space="preserve">
+    <value>Location</value>
+    <comment>Location</comment>
+  </data>
+  <data name="H4LocationDetails" xml:space="preserve">
+    <value>Location</value>
+    <comment>Location</comment>
+  </data>
+  <data name="H4LocationEdit" xml:space="preserve">
+    <value>Location</value>
+    <comment>Location</comment>
+  </data>
+  <data name="H4ManageChangePassword" xml:space="preserve">
+    <value>Change Password Form</value>
+    <comment>Change Password Form</comment>
+  </data>
+  <data name="H4ManageIndex" xml:space="preserve">
+    <value>Change your account settings</value>
+    <comment>Change your account settings</comment>
+  </data>
+  <data name="LeadHome" xml:space="preserve">
+    <value>Demo Application for storing location data added with description</value>
+    <comment>Demo Application for storing location data added with description</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li1" xml:space="preserve">
+    <value>C# ASP.NET</value>
+    <comment>C# ASP.NET</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li2" xml:space="preserve">
+    <value>MVC 5</value>
+    <comment>MVC 5</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li3" xml:space="preserve">
+    <value>EF 6</value>
+    <comment>EF 6</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li4" xml:space="preserve">
+    <value>JQuery</value>
+    <comment>JQuery</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li5" xml:space="preserve">
+    <value>Twitter Bootstrap</value>
+    <comment>Twitter Bootstrap</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li6" xml:space="preserve">
+    <value>Bing Map Control V7.0</value>
+    <comment>Bing Map Control V7.0</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li7" xml:space="preserve">
+    <value>Resource-files for Globalization</value>
+    <comment>Resource-files for Globalization</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li8" xml:space="preserve">
+    <value>Migration</value>
+    <comment>Migration</comment>
+  </data>
+  <data name="TextIndexDescriptionP1" xml:space="preserve">
+    <value>The application you can save, change and delete a location data added with description.</value>
+    <comment>The application you can save, change and delete a location data added with description.</comment>
+  </data>
+  <data name="TextIndexDescriptionP2" xml:space="preserve">
+    <value>The application use an UI autodetection for the language. The default language is English.</value>
+    <comment>The application use an UI autodetection for the language. The default language is English.</comment>
+  </data>
+  <data name="TextIndexDescriptionP3" xml:space="preserve">
+    <value>The application has been createad two default user roles: Admin (can create new users) and User.</value>
+    <comment>The application has been createad two default user roles: Admin (can create new users) and User.</comment>
+  </data>
+  <data name="TextIndexDescriptionP4" xml:space="preserve">
+    <value>User and and role definitions found from file Migrations/Configuration.cs.</value>
+    <comment>User and and role definitions found from file Migrations/Configuration.cs.</comment>
+  </data>
+  <data name="TextIndexTodoP1" xml:space="preserve">
+    <value>Add a correct ReturnUrl for actions Create, Edit and Delete.</value>
+    <comment>Add a correct ReturnUrl for actions Create, Edit and Delete.</comment>
+  </data>
+  <data name="TitleAccountForgotPassword" xml:space="preserve">
+    <value>Forgot your password?</value>
+    <comment>Forgot your password?</comment>
+  </data>
+  <data name="TitleAccountLogin" xml:space="preserve">
+    <value>Log in</value>
+    <comment>Log in</comment>
+  </data>
+  <data name="TitleAccountRegister" xml:space="preserve">
+    <value>Register</value>
+    <comment>Register</comment>
+  </data>
+  <data name="TitleAccountSendCode" xml:space="preserve">
+    <value>Send</value>
+    <comment>Send</comment>
+  </data>
+  <data name="TitleAccountVerifyCode" xml:space="preserve">
+    <value>Verify</value>
+    <comment>Verify</comment>
+  </data>
+  <data name="TitleError" xml:space="preserve">
+    <value>Error</value>
+    <comment>Error</comment>
+  </data>
+  <data name="TitleHomeAbout" xml:space="preserve">
+    <value>About</value>
+    <comment>About</comment>
+  </data>
+  <data name="TitleHomeContact" xml:space="preserve">
+    <value>Contact</value>
+    <comment>Contact</comment>
+  </data>
+  <data name="TitleHomeIndex" xml:space="preserve">
+    <value>Home Page</value>
+    <comment>Home Page</comment>
+  </data>
+  <data name="TitleLocationCreate" xml:space="preserve">
+    <value>Create</value>
+    <comment>Create</comment>
+  </data>
+  <data name="TitleLocationDelete" xml:space="preserve">
+    <value>Delete</value>
+    <comment>Delete</comment>
+  </data>
+  <data name="TitleLocationDetails" xml:space="preserve">
+    <value>Details</value>
+    <comment>Details</comment>
+  </data>
+  <data name="TitleLocationEdit" xml:space="preserve">
+    <value>Edit</value>
+    <comment>Edit</comment>
+  </data>
+  <data name="TitleLocationIndex" xml:space="preserve">
+    <value>Index</value>
+    <comment>Index</comment>
+  </data>
+  <data name="TitleLocationMap" xml:space="preserve">
+    <value>Map</value>
+    <comment>Map</comment>
+  </data>
+  <data name="TitleLogout" xml:space="preserve">
+    <value>Locked Out</value>
+    <comment>Locked Out</comment>
+  </data>
+  <data name="TitleManageAddPhoneNumber" xml:space="preserve">
+    <value>Phone Number</value>
+    <comment>Phone Number</comment>
+  </data>
+  <data name="TitleManageChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+    <comment>Change Password</comment>
+  </data>
+  <data name="TitleManageIndex" xml:space="preserve">
+    <value>Manage</value>
+    <comment>Manage</comment>
+  </data>
+</root>

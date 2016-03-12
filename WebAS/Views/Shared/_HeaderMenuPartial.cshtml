@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNet.Identity
+@using WebAS.Resources;
+
+@if (Request.IsAuthenticated)
+{
+    <ul class="nav navbar-nav navbar-left">
+        @*<li>@Html.ActionLink(@Resources.ViewMsg.ActionLinkHome, "Index", "Home")</li>*@
+        @*<li>@Html.ActionLink("Map", "Index", "Map")</li>
+        <li>@Html.ActionLink("Locations", "Index", "Locations")</li>
+        <li>@Html.ActionLink("Layers", "Index", "Layers")</li>*@
+
+        <li>@Html.ActionLink(@ViewResource.ActionLinkMap, "Map", "Location")</li>
+        <li>@Html.ActionLink(@ViewResource.ActionLinkLocations, "Index", "Location")</li>
+
+        @*<li>@Html.ActionLink(@Resources.ViewMsg.ActionLinkAbout, "About", "Home")</li>
+            <li>@Html.ActionLink(@Resources.ViewMsg.ActionLinkContact, "Contact", "Home")</li>*@
+
+        @if (User.IsInRole("Admin"))
+        {
+            @*<li>@Html.ActionLink("ClaimsList", "ClaimsList", "Home")</li>*@
+            <li>@Html.ActionLink(@ViewResource.ActionLinkRegisterAccountRegisterLink, "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        }
+    </ul>
+}
+

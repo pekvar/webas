@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionLinkAccountForgotPassword" xml:space="preserve">
+    <value>Glömt ditt lösenord?</value>
+    <comment>Glömt ditt lösenord?</comment>
+  </data>
+  <data name="ActionLinkAccountLoginRegister" xml:space="preserve">
+    <value>Registrera dig som ny användare</value>
+    <comment>Registrera dig som ny användare</comment>
+  </data>
+  <data name="ActionLinkBackToList" xml:space="preserve">
+    <value>Tillbaka till listan</value>
+    <comment>Tillbaka till listan</comment>
+  </data>
+  <data name="ActionLinkBackToMap" xml:space="preserve">
+    <value>Tillbaka till kartan</value>
+    <comment>Tillbaka till kartan</comment>
+  </data>
+  <data name="ActionLinkChangePassword" xml:space="preserve">
+    <value>Ändra ditt lösenord</value>
+    <comment>Ändra ditt lösenord</comment>
+  </data>
+  <data name="ActionLinkCreateNew" xml:space="preserve">
+    <value>Skapa ny</value>
+    <comment>Skapa ny</comment>
+  </data>
+  <data name="ActionLinkLocations" xml:space="preserve">
+    <value>Platser</value>
+    <comment>Platser</comment>
+  </data>
+  <data name="ActionLinkMap" xml:space="preserve">
+    <value>Map</value>
+    <comment>Map</comment>
+  </data>
+  <data name="ActionLinkRegisterAccountRegisterLink" xml:space="preserve">
+    <value>Registrera</value>
+    <comment>Registrera</comment>
+  </data>
+  <data name="ActionLinkSetPassword" xml:space="preserve">
+    <value>Skapa</value>
+    <comment>Skapa</comment>
+  </data>
+  <data name="ButtonLearnMore" xml:space="preserve">
+    <value>Läs mer</value>
+    <comment>Läs mer</comment>
+  </data>
+  <data name="ButtonSubmit" xml:space="preserve">
+    <value>Submit</value>
+    <comment>Submit</comment>
+  </data>
+  <data name="ButtonSubmitChangePassword" xml:space="preserve">
+    <value>Byt lösenord</value>
+    <comment>Byt lösenord</comment>
+  </data>
+  <data name="ButtonSubmitCreate" xml:space="preserve">
+    <value>Skapa</value>
+    <comment>Skapa</comment>
+  </data>
+  <data name="ButtonSubmitDelete" xml:space="preserve">
+    <value>Radera</value>
+    <comment>Radera</comment>
+  </data>
+  <data name="ButtonSubmitEmailLink" xml:space="preserve">
+    <value>E-post link</value>
+    <comment>E-post link</comment>
+  </data>
+  <data name="ButtonSubmitLocationMapRefresh" xml:space="preserve">
+    <value>Uppdatera karta</value>
+    <comment>Uppdatera karta</comment>
+  </data>
+  <data name="ButtonSubmitLogin" xml:space="preserve">
+    <value>Logga in</value>
+    <comment>Logga in</comment>
+  </data>
+  <data name="ButtonSubmitRegister" xml:space="preserve">
+    <value>Registrera</value>
+    <comment>Registrera</comment>
+  </data>
+  <data name="ButtonSubmitSave" xml:space="preserve">
+    <value>Spara</value>
+    <comment>Spara</comment>
+  </data>
+  <data name="H1Error" xml:space="preserve">
+    <value>Fel</value>
+    <comment>Fel</comment>
+  </data>
+  <data name="H1Logout" xml:space="preserve">
+    <value>Låst ut.</value>
+    <comment>Låst ut.</comment>
+  </data>
+  <data name="H2Error" xml:space="preserve">
+    <value>Ett fel uppstod när din begäran skulle bearbetas.</value>
+    <comment>Ett fel uppstod när din begäran skulle bearbetas.</comment>
+  </data>
+  <data name="H2IndexComponent" xml:space="preserve">
+    <value>Komponenter</value>
+    <comment>Komponenter</comment>
+  </data>
+  <data name="H2IndexDescription" xml:space="preserve">
+    <value>Beskrivning</value>
+    <comment>Beskrivning</comment>
+  </data>
+  <data name="H2IndexTodo" xml:space="preserve">
+    <value>Ståhej</value>
+    <comment>Ståhej</comment>
+  </data>
+  <data name="H2Logout" xml:space="preserve">
+    <value>Detta konto har blivit spärrat, var god försök igen senare.</value>
+    <comment>Detta konto har blivit spärrat, var god försök igen senare.</comment>
+  </data>
+  <data name="H3LocationDelete" xml:space="preserve">
+    <value>Är du säker på att du vill radera detta?</value>
+    <comment>Är du säker på att du vill radera detta?</comment>
+  </data>
+  <data name="H4AccountForgotPassword" xml:space="preserve">
+    <value>Fyll i din e-post.</value>
+    <comment>Fyll i din e-post.</comment>
+  </data>
+  <data name="H4AccountSendCode" xml:space="preserve">
+    <value>Skicka verifieringskod</value>
+    <comment>Skicka verifieringskod</comment>
+  </data>
+  <data name="H4AccountSendCodeText" xml:space="preserve">
+    <value>Välj tvåfaktorsautentisering tjänsteleverantör:</value>
+    <comment>Välj tvåfaktorsautentisering tjänsteleverantör:</comment>
+  </data>
+  <data name="H4LocationCreate" xml:space="preserve">
+    <value>Plats</value>
+    <comment>Plats</comment>
+  </data>
+  <data name="H4LocationDelete" xml:space="preserve">
+    <value>Plats</value>
+    <comment>Plats</comment>
+  </data>
+  <data name="H4LocationDetails" xml:space="preserve">
+    <value>Plats</value>
+    <comment>Plats</comment>
+  </data>
+  <data name="H4LocationEdit" xml:space="preserve">
+    <value>Läge</value>
+    <comment>Läge</comment>
+  </data>
+  <data name="H4ManageChangePassword" xml:space="preserve">
+    <value>Byt lösenord form</value>
+    <comment>Byt lösenord form</comment>
+  </data>
+  <data name="H4ManageIndex" xml:space="preserve">
+    <value>Ändra dina kontoinställningar</value>
+    <comment>Ändra dina kontoinställningar</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li1" xml:space="preserve">
+    <value>C# ASP.NET</value>
+    <comment>C# ASP.NET</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li2" xml:space="preserve">
+    <value>MVC 5</value>
+    <comment>MVC 5</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li3" xml:space="preserve">
+    <value>EF 6</value>
+    <comment>EF 6</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li4" xml:space="preserve">
+    <value>JQuery</value>
+    <comment>JQuery</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li5" xml:space="preserve">
+    <value>Twitter Bootstrap</value>
+    <comment>Twitter Bootstrap</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li6" xml:space="preserve">
+    <value>Bing Map Control V7.0</value>
+    <comment>Bing Map Control V7.0</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li7" xml:space="preserve">
+    <value>Resurs-filer för globalisering</value>
+    <comment>Resurs-filer för globalisering</comment>
+  </data>
+  <data name="TextIndexComponentUl1Li8" xml:space="preserve">
+    <value>Migration</value>
+    <comment>Migration</comment>
+  </data>
+  <data name="TextIndexDescriptionP1" xml:space="preserve">
+    <value>Ansökan kan du spara, ändra och ta bort en platsdata läggs med beskrivning.</value>
+    <comment>Ansökan kan du spara, ändra och ta bort en platsdata läggs med beskrivning.</comment>
+  </data>
+  <data name="TextIndexDescriptionP2" xml:space="preserve">
+    <value>Ansökan använda UI automatisk identifiering för språket. Standardspråket är engelska.</value>
+    <comment>Ansökan använda UI automatisk identifiering för språket. Standardspråket är engelska.</comment>
+  </data>
+  <data name="TextIndexDescriptionP3" xml:space="preserve">
+    <value>Ansökan har skapats två standardanvändarroller: Admin (kan skapa nya användare) och User.</value>
+    <comment>Ansökan har skapats två standardanvändarroller: Admin (kan skapa nya användare) och User.</comment>
+  </data>
+  <data name="TextIndexDescriptionP4" xml:space="preserve">
+    <value>Användar och och rolldefinitioner hittades från fil Migrations/Configuration.cs.</value>
+    <comment>Användar och och rolldefinitioner hittades från fil Migrations/Configuration.cs.</comment>
+  </data>
+  <data name="TextIndexTodoP1" xml:space="preserve">
+    <value>Lägg till en korrekt returnUrl för åtgärder Create, Edit och Delete.</value>
+    <comment>Lägg till en korrekt returnUrl för åtgärder Create, Edit och Delete.</comment>
+  </data>
+  <data name="TitleAccountForgotPassword" xml:space="preserve">
+    <value>Glömt ditt lösenord?</value>
+    <comment>Glömt ditt lösenord?</comment>
+  </data>
+  <data name="TitleAccountLogin" xml:space="preserve">
+    <value>Logga in</value>
+    <comment>Logga in</comment>
+  </data>
+  <data name="TitleAccountRegister" xml:space="preserve">
+    <value>Registrera</value>
+    <comment>Registrera</comment>
+  </data>
+  <data name="TitleAccountSendCode" xml:space="preserve">
+    <value>Skicka</value>
+    <comment>Skicka</comment>
+  </data>
+  <data name="TitleAccountVerifyCode" xml:space="preserve">
+    <value>Verifiera</value>
+    <comment>Verifiera</comment>
+  </data>
+  <data name="TitleError" xml:space="preserve">
+    <value>Fel</value>
+    <comment>Fel</comment>
+  </data>
+  <data name="TitleHomeAbout" xml:space="preserve">
+    <value>Om</value>
+    <comment>Om</comment>
+  </data>
+  <data name="TitleHomeContact" xml:space="preserve">
+    <value>Kontakt</value>
+    <comment>Kontakt</comment>
+  </data>
+  <data name="TitleHomeIndex" xml:space="preserve">
+    <value>Hemsida</value>
+    <comment>Hemsida</comment>
+  </data>
+  <data name="TitleLocationCreate" xml:space="preserve">
+    <value>Skapa</value>
+    <comment>Skapa</comment>
+  </data>
+  <data name="TitleLocationDelete" xml:space="preserve">
+    <value>Radera</value>
+    <comment>Radera</comment>
+  </data>
+  <data name="TitleLocationDetails" xml:space="preserve">
+    <value>Detaljer</value>
+    <comment>Detaljer</comment>
+  </data>
+  <data name="TitleLocationEdit" xml:space="preserve">
+    <value>Redigera</value>
+    <comment>Redigera</comment>
+  </data>
+  <data name="TitleLocationIndex" xml:space="preserve">
+    <value>Index</value>
+    <comment>Index</comment>
+  </data>
+  <data name="TitleLocationMap" xml:space="preserve">
+    <value>Karta</value>
+    <comment>Karta</comment>
+  </data>
+  <data name="TitleLogout" xml:space="preserve">
+    <value>Låst ut</value>
+    <comment>Låst ut</comment>
+  </data>
+  <data name="TitleManageAddPhoneNumber" xml:space="preserve">
+    <value>Telefonnumber</value>
+    <comment>Telefonnumber</comment>
+  </data>
+  <data name="TitleManageChangePassword" xml:space="preserve">
+    <value>Byt lösenord</value>
+    <comment>Byt lösenord</comment>
+  </data>
+  <data name="TitleManageIndex" xml:space="preserve">
+    <value>Förvalta</value>
+    <comment>Förvalta</comment>
+  </data>
+</root>
